@@ -43,7 +43,7 @@ export default function AboutTeam() {
           />
         </div>
 
-        {/* 🌟 Team Section */}
+    
         <div className="flex-1">
           <p
             className="text-right font-serif text-[40px] text-gray-800 mb-12 leading-tight"
@@ -74,7 +74,7 @@ export default function AboutTeam() {
             ))}
           </div>
 
-          {/* 🧠 About Team Section */}
+         
           <div className="mt-20 bg-white/50 backdrop-blur-sm rounded-lg p-12 text-center">
             <h2 className="text-3xl font-serif font-bold text-gray-800 mb-4">
               Why Our Team Matters
@@ -91,3 +91,4 @@ export default function AboutTeam() {
     </div>
   );
 }
+
