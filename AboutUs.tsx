@@ -2,15 +2,15 @@ export default function AboutUs() {
   return (
     <div className="w-full bg-[#fff9ef]">
       <div className="max-w-7xl mx-auto px-8 py-20">
-        {/* Heading */}
+      
         <h1 className="text-5xl font-serif font-bold text-gray-800 mb-12 text-center">
           About Us
         </h1>
 
-        {/* Flex Container - Left Images + Right Text */}
+       
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-16">
           
-          {/* LEFT: 3 Tilted Frames */}
+          
           <div className="relative flex flex-col gap-6 items-center lg:items-start">
             <img
               src="/Frame 9.png"
@@ -29,7 +29,7 @@ export default function AboutUs() {
             />
           </div>
 
-          {/* RIGHT: Text Content */}
+         
           <div className="flex-1 text-right space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed font-serif">
               Every project is more than just a brief — it’s a new chapter waiting to be written.
@@ -64,3 +64,4 @@ export default function AboutUs() {
     </div>
   );
 }
+
