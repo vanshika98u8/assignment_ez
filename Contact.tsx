@@ -25,13 +25,11 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
-  // ✅ 1️⃣ Frontend Validation
   if (!formData.name || !formData.email || !formData.message) {
     setSubmitStatus({ type: 'error', message: 'Please fill all required fields.' });
     return;
   }
 
-  // ✅ 2️⃣ Email Format Validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(formData.email)) {
     setSubmitStatus({ type: 'error', message: 'Please enter a valid email address.' });
@@ -273,3 +271,4 @@ export default function Contact() {
     </div>
   );
 }
+
