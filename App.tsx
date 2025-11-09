@@ -7,10 +7,10 @@ import Services from './section/Services';
 import Contact from './section/Contact';
 
 function App() {
-  // ✅ Define Section only once, covering all sections you actually use
+  
   type Section = 'home' | 'aboutUs' | 'aboutTeam' | 'services' | 'contact';
 
-  // ✅ Strongly type the state using Section
+  
   const [activeSection, setActiveSection] = useState<Section>('home');
 
   const homeRef = useRef<HTMLDivElement>(null);
@@ -19,7 +19,7 @@ function App() {
   const servicesRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
 
-  // ✅ scrollToSection uses the same Section type
+  
   const scrollToSection = (section: Section) => {
     setActiveSection(section);
     const refs = {
