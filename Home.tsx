@@ -2,20 +2,20 @@ export default function Home() {
   return (
     <div className="w-full pt-16">
       <div className="max-w-7xl mx-auto px-8">
-        {/* Grid: Left = Mandala+Logo, Right = Text */}
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
-          {/* LEFT: Mandala + Logo */}
+        
           <div className="relative flex flex-col items-center justify-center">
             <div className="relative flex items-center justify-center">
-              {/* Mandala (background image) */}
+             
               <img
                 src="/Hero Mandala.png"
                 alt="Mandala"
                 className="w-[600px] h-auto"
               />
 
-              {/* Logo on top of Mandala */}
+             
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <img
                   src="/VFilms Logo.png"
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </div>
           
-          {/* RIGHT: Text Section */}
+         
           <div className="relative pt-16 flex flex-col text-right">
             <div className="bg-[#f9f3c8] p-8 shadow-lg transform relative">
               
@@ -71,3 +71,4 @@ export default function Home() {
     </div>
   );
 }
+
